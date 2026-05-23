@@ -1,0 +1,7 @@
+gcc -Iinc -fpic -ffreestanding -fno-stack-protector -fno-stack-check -fshort-wchar -mno-red-zone -maccumulate-outgoing-args -c /mnt/c/Temp/EFIGCC/bootx64.c -o /mnt/c/Temp/EFIGCC/bootx64.o
+
+
+ld -shared -Bsymbolic -L x86_64/lib/ -L x86_64/gnuefi/ -L lib -T gnuefi/elf_x86_64_efi.lds gnuefi/crt0-efi-x86_64.o /mnt/c/Temp/EFIGCC/bootx64.o -o /mnt/c/Temp/EFIGCC/bootx64.so -lgnuefi -lefi
+
+
+ objcopy -j .text -j .sdata -j .data -j .rodata -j .dynamic -j .dynsym  -j .rel -j .rela -j .rel.* -j .rela.* -j .reloc --target efi-app-x86_64 --subsystem=10 /mnt/c/Temp/EFIGCC/bootx64.so /mnt/c/Temp/EFIGCC/bootx64.efi
