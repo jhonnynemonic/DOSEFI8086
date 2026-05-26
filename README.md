@@ -6,4 +6,5 @@ EFIDOSBOX6-EXE-VRAM EFI File and ISO for boot emulator 8086 in x86_64 and boot .
 EFIFAT EFI File for view the rootfs of the .IMA File of UltraISO used for boot EFI with CDROM and check access to files.
 EFIFAT_BMP EFI File checked access to a .IMA File of UltraISO for UEFI opening a BMP File not compressed. This test is for use in the emulator access to a FS System for load files for emulate disk read.
 EFIDOSBOX-EXE-VRAM-V2-FILE EFI File with floppy UltraISO access for load in emulator the files and execute from Floppy.
+EFIDOSBOX-EXE-VRAM-V2-FILE-SD name 8086SD is the EFI File with floppy UltraISIO read accees and load of noname_exe.c, noname_exe_2.c and noname_exe3.bin for execute MZ DOS FILE 16-bit with no extra content in the headers using GNU-EFI-3.0.18 complete proccess with 3 messages in execution on.
 The intention of this is show how is possible execute old code and emulator in EFI MODE with x86_64. EFI is not only x86_64 EFI with no DOS!! Works with Grub2 2.02.
