@@ -5,4 +5,10 @@ EFIDOSBOX6 EFI File with dosbos.efi named for boot x86_64 8086 emulator and boot
 EFIDOSBOX6-EXE-COM-VRAM-EFI File for boot emulator 8086 in x86_64 and boot .EXE file and .COM file of DOS 16-bit type MZ Header embebed and start Video Representation in mode 8086 - 13h. File dosbox-LENOVOandTHEATEAM.efi sample with two screens, the change is key press when started on machine or emulator. Importante remember in computer if use SHELL EFI set "mode 80 25" for see the demostratio of emulation screen with 8086 cpu in UEFI computer.
 EFIFAT EFI File for view the rootfs of the .IMA File of UltraISO used for boot EFI with CDROM and check access to files.
 EFIFAT_BMP EFI File checked access to a .IMA File of UltraISO for UEFI opening a BMP File not compressed. This test is for use in the emulator access to a FS System for load files for emulate disk read.
+
+Now is finally complete de project of DOSEFI8086. Download EFIDOSBOX6-EXE-COM-VRAM-EFI and use the floppy FDD_BOOT.IMA or use the bootx64.efi file adding the file COMMAND.COM en dosbox folder and execute program with intereactive action from EFI to COM File. 
+This have a menu of welcome when start and it show "C>" promt for type "e" and press enter and then, the COM file say "Saliendo de Command". You must use the spacebar for go step by step.
+The option of this program can be, enable features from main.c for start view the other menus was created in development process.
+8086 Works!
+
 The intention of this is show how is possible execute old code and emulator in EFI MODE with x86_64. EFI is not only x86_64 EFI with no DOS!! Works with Grub2 2.02.
