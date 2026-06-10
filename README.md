@@ -9,6 +9,6 @@ EFIFAT_BMP EFI File checked access to a .IMA File of UltraISO for UEFI opening a
 Now is finally complete de project of DOSEFI8086. Download EFIDOSBOX6-EXE-COM-VRAM-EFI and use the floppy FDD_BOOT.IMA or use the bootx64.efi file adding the file COMMAND.COM en dosbox folder and execute program with intereactive action from EFI to COM File. 
 This have a menu of welcome when start and it show "C>" promt for type "e" and press enter and then, the COM file say "Saliendo de Command". You must use the spacebar for go step by step.
 The option of this program can be, enable features from main.c for start view the other menus was created in development process.
-8086 Works!
+8086 Works! Thanks to IA Copilot.
 
 The intention of this is show how is possible execute old code and emulator in EFI MODE with x86_64. EFI is not only x86_64 EFI with no DOS!! Works with Grub2 2.02.
