@@ -13,4 +13,4 @@ The option of this program can be, enable features from main.c for start view th
 
 The intention of this is show how is possible execute old code and emulator in EFI MODE with x86_64. EFI is not only x86_64 EFI with no DOS!! Works with Grub2 2.02.
 
-by permao2019w10p@outlook.com
+by permao2019w10p@outlook.es
