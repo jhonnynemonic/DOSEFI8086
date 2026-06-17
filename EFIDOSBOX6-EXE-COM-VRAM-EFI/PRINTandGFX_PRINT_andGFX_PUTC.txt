@@ -1,0 +1,8 @@
+Estas variables de uso de impresión:
+
+PRINT(L""\n); - modo de impresión de texto en Shell
+gfx_printf(""\n); - modo de impresión de texto para la screen (pantalla) de UEFI creada 320x200
+gfx_putc((char)c); - modo de impresión de texto para el Texto del fichero COM en ASCII.
+
+
+
