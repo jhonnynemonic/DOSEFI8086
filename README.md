@@ -6,8 +6,8 @@ EFIDOSBOX6-EXE-COM-VRAM-EFI File for boot emulator 8086 in x86_64 and boot .EXE 
 EFIFAT EFI File for view the rootfs of the .IMA File of UltraISO used for boot EFI with CDROM and check access to files.
 EFIFAT_BMP EFI File checked access to a .IMA File of UltraISO for UEFI opening a BMP File not compressed. This test is for use in the emulator access to a FS System for load files for emulate disk read.
 
-Now is finally complete de project of DOSEFI8086. Download EFIDOSBOX6-EXE-COM-VRAM-EFI and use the floppy FDD_BOOT.IMA or use the bootx64.efi file adding the file COMMAND.COM en dosbox folder and execute program with intereactive action from EFI to COM File. 
-This have a menu of welcome when start and it show "C>" promt for type "e" and press enter and then, the COM file say "Saliendo de Command" or type "o" for list directories and see files. You must use the spacebar for go step by step.
+Now is finally complete de project of DOSEFI8086. Download EFIDOSBOX6-EXE-COM-VRAM-EFI and use the floppy FDD_BOOT.IMA or use the bootx64.efi file adding the file COMMAND.COM en dosbox folder and execute program with intereactive action from EFI to COM's File with UEFI. 
+This have a menu of welcome when start and it show "C>" promt for type "e" and press enter and then, the COM file say "Saliendo de Command" or type "o" for list directories and see files. You must use the spacebar for go step by step and you can press "1" for a message of HELLO.COM file.
 The option of this program can be, enable features from main.c for start view the other menus was created in development process.
 8086 Works! Thanks to IA Copilot.
 
