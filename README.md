@@ -17,3 +17,5 @@ Also i added certs for use the program with UEFI, file pem and key with the der 
 The intention of this is show how is possible execute old code and emulator in EFI MODE with x86_64. EFI is not only x86_64 EFI with no DOS!! Works with Grub2 2.02.
 
 by PERMA - permao2019w10p@outlook.es
+
+<img width="330" height="169" alt="330px-KL_Intel_D8086" src="https://github.com/user-attachments/assets/319b232a-34e9-4d90-95ea-cbd7e8fab45d" />
