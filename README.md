@@ -19,3 +19,4 @@ The intention of this is show how is possible execute old code and emulator in E
 by PERMA - permao2019w10p@outlook.es
 
 <img width="330" height="169" alt="330px-KL_Intel_D8086" src="https://github.com/user-attachments/assets/319b232a-34e9-4d90-95ea-cbd7e8fab45d" />
+<img width="840" height="1010" alt="146-1465893_uefi-uefi-logo" src="https://github.com/user-attachments/assets/1980dfc1-620b-405f-9069-76a3b42bfd8e" />
