@@ -10,7 +10,7 @@ Now is finally complete de project of DOSEFI8086. Download EFIDOSBOX6-EXE-COM-VR
 This have a menu of welcome when start and it show COMMAND.COM and COMMAND_KEY.COM. The first start "C>" promt for type "e" and press enter for exit and then, the COM file say "Saliendo de Command" or type "o" for list directories and see files and now you can press "1" for a message of HELLO.COM file in the COMMAND.COM. Also, exist a second program for test the keyboard :).
 The option of this program can be, enable features from main.c for start view the other menus was created in development process.
 
-You can use (now in development) EFIDOSBOX-EXE-COM-VRAM-EFI-486-FLOPPY-FREEDOS, thi have a new option "Ejecutar Disk" and with this option i can show you how with the source code is here can boot the floppy of FreeDos, freedos.boot.disk.160K.img download from https://github.com/codercowboy/freedosbootdisks. By the moment only can view this FreeDOS start boot in the screen in the top because i need implement all the rest. Great Work!
+You can use (now in development) EFIDOSBOX-EXE-COM-VRAM-EFI-486-FLOPPY-FREEDOS, thi have a new option "Ejecutar Disk" and with this option i can show you how with the source code is here can boot the floppy of FreeDos, freedos.boot.disk.160K.img download from https://github.com/codercowboy/freedosbootdisks. By the moment only can view this FreeDOS start boot in the screen in the top because i need implement all the rest. Great Work! and NoW the EMUlator is 486 real mode!
 
 Also i added certs for use the program with UEFI, file pem and key with the der file and crt file and finally pfx for add signed signature. This have not pass its free.
 
